@@ -7,7 +7,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.example.danikkombat.R
@@ -49,13 +48,11 @@ class MainScreenFragment : NavigationFragment() {
 
     override fun onPause() {
         super.onPause()
-        Log.d("test", "paused")
         viewModel.saveCoins(counterState)
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d("test", "destroyed")
         viewModel.saveCoins(counterState)
     }
 

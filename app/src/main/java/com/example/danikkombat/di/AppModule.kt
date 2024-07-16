@@ -16,7 +16,9 @@ val appModule = module {
     }
 
     viewModel<ShopViewModel> {
-        ShopViewModel()
+        ShopViewModel(
+            getAmountOfCoinsUseCase = get()
+        )
     }
 
 }

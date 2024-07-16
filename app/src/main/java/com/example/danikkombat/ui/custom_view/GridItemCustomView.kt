@@ -19,10 +19,10 @@ class GridItemCustomView @JvmOverloads constructor(
     private var cardColor: Int = 0
 
     init {
-        inflate(context, R.layout.grid_item_view, this)
+        inflate(context, R.layout.recycler_shop_item_view, this)
         multiplierTitleTextView = findViewById(R.id.multiplierTitleTextView)
         multiplierPriceTextView = findViewById(R.id.multiplierPriceTextView)
-        cardView = findViewById(R.id.mainGridItemHolder)
+        cardView = findViewById(R.id.mainRecyclerItemHolder)
 
         attrs?.let {
             val attrsArray = context.theme.obtainStyledAttributes(

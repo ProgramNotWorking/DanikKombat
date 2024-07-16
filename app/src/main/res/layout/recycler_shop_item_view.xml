@@ -5,12 +5,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/mainGridItemHolder"
+        android:id="@+id/mainRecyclerItemHolder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="6dp"
         app:strokeColor="@color/very_dark_purple"
+        android:elevation="0dp"
         android:backgroundTint="@color/very_light_purple">
 
     <LinearLayout
