@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DanikKombat</string>
+    <string name="stub">STUB</string>
+
+    <!--  Grid title  -->
+    <string name="x2">x2</string>
+    <string name="x5">x5</string>
+    <string name="x10">x10</string>
+    <string name="x20">x20</string>
+
+    <!--  Grid price  -->
+    <string name="c100">100</string>
+    <string name="c500">500</string>
+    <string name="c2500">2500</string>
+    <string name="c7000">7000</string>
+
+</resources>
